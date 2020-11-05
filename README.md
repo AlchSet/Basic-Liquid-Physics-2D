@@ -1,6 +1,8 @@
 # Basic-Liquid-Physics-2D
 Simple water simulation with water distortion for 2d games. Uses the built-in pipeline for shaders.
 
+![](Water%20Sim.gif)
+
 It uses a RenderTexture and a Camera only rendering the water layer which then applies
 a blur effect. The resulting texture is rendered onto a quad placed infront of the
 camera.
